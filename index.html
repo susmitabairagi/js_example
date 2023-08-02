@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example</title>
+    <!--css links-->
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!--text-change-->
+    <div class="container">
+      <h1 class="text-danger">click the button to change the text</h1>
+      <button type="button" class="btn btn-dark my-2" onclick="textChange()">Text Change</button>
+      <h2 id="h2">Hello World!</h2>
+    </div>
+    <!--show date-->
+    <div class="container">
+      <h1 class="text-danger">click the button to show the date</h1>
+      <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+      <h2 id="dh2">Date</h2>
+    </div>
+    <!--variable ex-->
+      <div class="container">
+      <h1 class="text-danger">click the button to repeat the message</h1>
+      <button type="button" class="btn btn-dark" onclick="dataRepeat()">Repeat Message</button>
+      <h2 id="dr"></h2>
+    </div>
+
+    <!--on/off-->
+    <div class="container">
+      <h1 class="text-danger">click the button to on/off the bulb</h1>
+      <button type="button" class="btn btn-success" onclick="bulbOn()">On</button>
+      <img id="bulb" src="images/pic_bulboff.gif" alt="off">
+      <button type="button" class="btn btn-dark" onclick="bulbOff()">Off</button>
+    </div>
+    <!--fontsize-->
+    <div class="container">
+      <h1 class="text-danger">click the button to change the font-size</h1>
+      <button type="button" class="btn btn-dark" onclick="fontSize()">FontSize</button>
+      <h2 id="fs">lorem ipsam dolor sit.</h2>
+    </div>
+    <!--show/hide-->
+
+     <div class="container">
+      <h1 class="text-danger">click the button to show/hide the text</h1>
+      <button type="button" class="btn btn-danger" onclick="textShow()">Show</button>
+      <button type="button" class="btn btn-dark" onclick="textHide()">Hide</button>
+      <h2 id="tsh">lorem ipsam dolor sit.</h2>
+    </div>
+
+    <div class="container">
+      <h1 class="text-danger">click the button to add the value.</h1>
+      <button type="button" class="btn btn-danger" onclick="valueAdd()">add</button>
+      <h2 id="va">Add</h2>
+    </div>
+      
+
+    
+    
+    
+   <!--js links-->        
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
